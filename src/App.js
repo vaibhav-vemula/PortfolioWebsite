@@ -1,25 +1,43 @@
-import logo from './logo.svg';
+import React from 'react';
+// import { Switch, Route, Redirect } from "react-router-dom";
 import './App.css';
+import Navbar from './Navbar'
+import "./assets/vendor/aos/aos.css"
+import "./assets/vendor/bootstrap/css/bootstrap.min.css" 
+import "./assets/vendor/bootstrap-icons/bootstrap-icons.css" 
+import "./assets/vendor/boxicons/css/boxicons.min.css" 
+import "./assets/vendor/glightbox/css/glightbox.min.css" 
+import "./assets/vendor/swiper/swiper-bundle.min.css"
+import AOS from 'aos';
+import "aos/dist/aos.css";
+
+import About from './About';
+import Resume from './Resume';
+import Projects from './Projects';
+import Contact from './Contact';
+import Home from './Home';
+AOS.init();
+
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+  
+  return ( 
+      <>
+      <Navbar />
+      
+      <main className="main">
+      
+      <Home />
+        <About />
+        <Resume />
+        <Projects />
+        <Contact />
+     </main>
+            </>
+        );
+    }
+
+
 
 export default App;
