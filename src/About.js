@@ -26,7 +26,7 @@ function About() {
               <div className="col-lg-6"  >
                 <ul>
                   <li><i className="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>25 July 2001</span></li>
-                  <li><i className="bi bi-chevron-right"></i> <strong>Website:</strong> <span>www.example.com</span></li>
+                  <li><i className="bi bi-chevron-right"></i> <strong>Website:</strong> <span>www.vaibhavvemula.netlify.app</span></li>
                   <li><i className="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+91 7619229838</span></li>
                   <li><i className="bi bi-chevron-right"></i> <strong>Location:</strong><span>Bangalore, India</span></li>
                 </ul>
