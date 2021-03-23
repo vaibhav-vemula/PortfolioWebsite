@@ -16,7 +16,7 @@ function Resume(){
           <div className="col-lg-6" data-aos="zoom-in-up" data-aos-delay="200">
 
              <div className='bbb'>
-                <a href="https://drive.google.com/file/d/1-1FRMldc6zYTH2rXxvG4xiRPco0Xey4i/view?usp=sharing" className="btnn btn-2 btn-2h"> <FaFileDownload size='30'/> &nbsp;Download Resume</a>
+                <a href="https://drive.google.com/file/d/1OgUgOLeyg1poWtatleEdgBJUZewOSBFl/view?usp=sharing" className="btnn btn-2 btn-2h"> <FaFileDownload size='30'/> &nbsp;Download Resume</a>
             </div>
 
           </div>
