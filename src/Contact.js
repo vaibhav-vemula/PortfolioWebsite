@@ -1,65 +1,23 @@
 import React from 'react'
 import sm from './img/sm.gif'
+import emailjs from 'emailjs-com';
 
+function Contact(){
 
+  const {REACT_APP_SERVICE_ID,REACT_APP_TEMPLATE_ID,REACT_APP_USER_ID} = process.env;
 
-class Contact extends React.Component{
+  function sendEmail(e) {
+    e.preventDefault();
 
-  constructor(props) {
-    super(props);
-    
-    this.state = {
-      name: '',
-      email:'',
-      subject:'',
-      message:'',
-    };
-    this.namin = this.namin.bind(this);
-    this.emailin=this.emailin.bind(this);
-    this.subin=this.subin.bind(this);
-    this.messin=this.messin.bind(this);
-    this.formSumbit=this.formSumbit.bind(this);
+    emailjs.sendForm(REACT_APP_SERVICE_ID, REACT_APP_TEMPLATE_ID, e.target, REACT_APP_USER_ID)
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+      e.target.reset()
   }
 
-  namin(e) {
-    this.setState({
-      name: e.target.value,
-     });
-     
-  }
-  emailin(e){
-    this.setState({
-      email:e.target.value,
-    })
-  }
-  subin(e){
-    this.setState({
-      subject:e.target.value,
-    })
-  }
-  messin(e){
-    this.setState({
-      message:e.target.value,
-    })
-  }
-
-  
-  formSumbit(ev){
-
-    ev.preventDefault()
-    // console.log(this.state)
-    this.setState({
-    name: '',
-    email:'',
-    subject:'',
-    message:''
-    })
-    alert('Message Sent')
-  }
-
-
-  
-  render(){
   return(
     <>
 
@@ -73,32 +31,30 @@ class Contact extends React.Component{
         <div className="row">
 
           <div className="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch" data-aos="fade-up-right" data-aos-duration="1500">
-            <form className="formm">
+           
+            <form className="formm" onSubmit={sendEmail}>
               <div className="row">
                 <div className="form-group col-md-6">
                   <label className="namee">Your Name</label>
-                  <input type="text" name="name" onChange={this.namin}
-                  value={this.state.name} className="form-control" id="name" required />
+                  <input type="text" name="name"
+                  className="form-control" id="name" required />
                 </div>
                 <div className="form-group col-md-6">
                   <label className="namee">Your Email</label>
-                  <input type="email" onChange={this.emailin}
-                  value={this.state.email} className="form-control" name="email" id="email" required />
+                  <input type="email" className="form-control" name="email" id="email" required />
                 </div>
               </div>
               <div className="form-group">
                 <label className="namee">Subject</label>
-                <input type="text" className="form-control" onChange={this.subin}
-                  value={this.state.subject} name="subject" id="subject" required />
+                <input type="text" className="form-control" name="subject" id="subject" required />
               </div>
               <div className="form-group">
                 <label className="namee">Message</label>
-                <textarea className="form-control" onChange={this.messin}
-                  value={this.state.message} name="message" rows="10" required></textarea>
+                <textarea className="form-control" name="message" rows="10" required></textarea>
               </div>
 
               <div className="text-center">
-              <button className="btnn btn-2 btn-2h" onClick={this.formSumbit} >Send Message</button>
+              <button className="btnn btn-2 btn-2h" type="submit" >Send Message</button>
               </div>
             </form>
           </div>
@@ -149,7 +105,7 @@ class Contact extends React.Component{
         
 </>
 );
-  }
 }
+
 
 export default Contact
