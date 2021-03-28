@@ -3,8 +3,6 @@ import sm from './img/sm.gif'
 import emailjs from 'emailjs-com';
 
 function Contact(){
-
-  
   const {REACT_APP_SERVICE_ID,REACT_APP_USER_ID,REACT_APP_TEMPLATE_ID} = process.env;
 
   function sendEmail(e) {
