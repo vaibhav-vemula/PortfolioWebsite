@@ -4,6 +4,7 @@ import forecast from "./img/forecast.png";
 import ctopy from "./img/ctop.png";
 import uno from "./img/uno.jpg";
 import cow from "./img/im.jpg";
+import app from "./img/appp.png";
 
  
 const Carddata = [
@@ -26,6 +27,12 @@ const Carddata = [
     subtitle: "Weather Forecast Website with 5 day forecast and 3 hourly forecast for 5 days.",
     link: "https://weatherforecastbyvaibhav.netlify.app",
   },
+  {
+    imgsrc: app,
+    title: "LearnElla",
+    subtitle: "Android app with Dictionary, Quiz(with different categories), and eBook Library.",
+    link: "https://github.com/vaibhav-vemula/LearnElla",
+  },
   
   {
     imgsrc: ctopy,
@@ -46,6 +53,7 @@ const Carddata = [
     subtitle: "Simple Arduino UNO projects (Robotic ARM, Third EYE, Smart home)",
     link: "https://github.com/vaibhav-vemula/Arduino-UNO",
   },
+
   
   
 

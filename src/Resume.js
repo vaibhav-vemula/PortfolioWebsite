@@ -16,7 +16,7 @@ function Resume(){
           <div className="col-lg-6" data-aos="zoom-in-up" data-aos-delay="200">
 
              <div className='bbb'>
-                <a href="https://drive.google.com/file/d/1OgUgOLeyg1poWtatleEdgBJUZewOSBFl/view?usp=sharing" className="btnn btn-2 btn-2h"> <FaFileDownload size='30'/> &nbsp;Download Resume</a>
+                <a href="https://drive.google.com/file/d/17L2DprzoLBb7SFjrDu8FxzbRoGMGAooj/view?usp=sharing" className="btnn btn-2 btn-2h"> <FaFileDownload size='30'/> &nbsp;Download Resume</a>
             </div>
 
           </div>
@@ -36,6 +36,7 @@ function Resume(){
               <h5 className='ski'>NodeJS</h5>
               <h5 className='ski'>ExpressJS</h5>
               <h5 className='ski'>MongoDB</h5>
+              <h5 className='ski'>PostgreSQL</h5>
               <h5 className='ski'>Machine Learning</h5>
              <h5 className='ski'>Arduino</h5>
 
@@ -55,7 +56,7 @@ function Resume(){
               <h5>2019 - Present</h5>
               <p style={{fontSize:'20px'}}><i>PES University, Bangalore, India</i></p>
               <ul>
-                <li>CGPA – 8.11/10.00</li>
+                <li>CGPA – 8.03/10.00</li>
                 <li>Received Distinction Award</li>
               </ul>
             </div>
@@ -99,16 +100,17 @@ function Resume(){
               <p><em>Bangalore, India</em></p>
               <ul>
                 <li>Equinox Projects division of Equinox-The Space Club is focused on participating in Indian Rover Challenge and University Rover Challenge.</li>
+                <li>Working under Navigation and Autonomy domain for autonomous navigation of the rover.</li>
               </ul>
             </div>
 
             <div className="resume-item">
-              <h3>Technical Intern</h3>
+              <h3>Web Development Intern</h3>
               <h4>PESU IO</h4>
               <h5>Mar 2021 – Present</h5>
               <p><em>Bangalore, India</em></p>
               <ul>
-                <li>Developing and maintaining PESU IO products.</li>
+                <li>Developing and maintaining products (websites) of PESU IO.</li>
               </ul>
               
             </div>

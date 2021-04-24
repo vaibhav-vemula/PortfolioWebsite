@@ -12,7 +12,7 @@ function Home(){
      I'm a&nbsp;
      <Typewriter
         options={{
-                strings: ['Student', 'Web Developer!','Tech Enthusiast!!','Blogger!'],
+                strings: ['Student','Software Developer!', 'Web Developer!','Tech Enthusiast!!','Blogger!'],
                 autoStart: true,
                 loop: true,}}
         />
