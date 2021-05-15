@@ -5,33 +5,38 @@ import ctopy from "./img/ctop.png";
 import uno from "./img/uno.jpg";
 import cow from "./img/im.jpg";
 import app from "./img/appp.png";
-
+import covi from "./img/covinews.png";
  
 const Carddata = [
   {
     imgsrc: rdc,
     title: "Rural Digital Companion",
-    subtitle: "A MERN stack web application for people living in rural areas and the governing agencies of villages.",
-    link: "https://github.com/vaibhav-vemula/Gramin-Digital-Bandhu",
+    subtitle: "A MERN stack application for people living in rural areas and the governing agencies of villages.",
+    link: "https://github.com/vaibhav-vemula/Rural-Digital-Companion",
+  },
+  {
+    imgsrc: forecast,
+    title: "Weather Forecast",
+    subtitle: "Weather Forecast Website with 5 day forecast and 3 hourly forecast for 5 days. Built using ReactJS.",
+    link: "https://weatherforecastbyvaibhav.netlify.app",
+  },
+  {
+    imgsrc: covi,
+    title: "CoviNews",
+    subtitle: "Flutter application with Covid-19 statistics and News related to health, Covid-19 and vaccine in india.",
+    link: "https://github.com/vaibhav-vemula/CoviNews",
+  },
+  {
+    imgsrc: app,
+    title: "LearnElla",
+    subtitle: "Android app with offline English Dictionary, Quiz (with different question categories), and eBook Library.",
+    link: "https://github.com/vaibhav-vemula/LearnElla",
   },
   {
     imgsrc: blog,
     title: "Personal Blog Website",
     subtitle: "A Website for personal blog/thoughts. Built using ReactJS.",
     link: "https://vaibhavvemulablog.netlify.app",
-  },
-  
-  {
-    imgsrc: forecast,
-    title: "Weather Forecast",
-    subtitle: "Weather Forecast Website with 5 day forecast and 3 hourly forecast for 5 days.",
-    link: "https://weatherforecastbyvaibhav.netlify.app",
-  },
-  {
-    imgsrc: app,
-    title: "LearnElla",
-    subtitle: "Android app with Dictionary, Quiz(with different categories), and eBook Library.",
-    link: "https://github.com/vaibhav-vemula/LearnElla",
   },
   
   {
