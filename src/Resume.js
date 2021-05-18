@@ -29,9 +29,10 @@ function Resume(){
               <h5 className='ski'>JavaScript</h5>
               <h5 className='ski'>Python</h5>
               <h5 className='ski'>Java</h5>
+              <h5 className='ski'>Swift</h5>
+              <h5 className='ski'>Flutter</h5>
               <h5 className='ski'>HTML</h5>
               <h5 className='ski'>CSS</h5>
-              <h5 className='ski'>jQuery</h5>
               <h5 className='ski'>ReactJS</h5>
               <h5 className='ski'>NodeJS</h5>
               <h5 className='ski'>ExpressJS</h5>
