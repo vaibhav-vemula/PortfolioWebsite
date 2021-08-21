@@ -24,22 +24,23 @@ function Resume(){
           <div className="col-lg-6" data-aos="fade-up" data-aos-delay="100" >
              <h2>Technical Skills </h2><br/>
             <div className='col-lg-12'>
-              <h5 className='ski'>C</h5>
               <h5 className='ski'>C++</h5>
-              <h5 className='ski'>JavaScript</h5>
+              <h5 className='ski'>C</h5>
               <h5 className='ski'>Python</h5>
-              <h5 className='ski'>Java</h5>
-              <h5 className='ski'>Swift</h5>
-              <h5 className='ski'>Flutter</h5>
-              <h5 className='ski'>HTML</h5>
-              <h5 className='ski'>CSS</h5>
+              <h5 className='ski'>JavaScript</h5>
               <h5 className='ski'>ReactJS</h5>
+              <h5 className='ski'>VueJS</h5>
               <h5 className='ski'>NodeJS</h5>
               <h5 className='ski'>ExpressJS</h5>
               <h5 className='ski'>MongoDB</h5>
               <h5 className='ski'>PostgreSQL</h5>
               <h5 className='ski'>Machine Learning</h5>
-             <h5 className='ski'>Arduino</h5>
+              <h5 className='ski'>Tensorflow</h5>
+              <h5 className='ski'>Data Science</h5>
+              <h5 className='ski'>Flutter</h5>
+              <h5 className='ski'>Android/iOS App Development</h5>
+              <h5 className='ski'>Git</h5>
+             
 
           </div>
         </div>
@@ -51,19 +52,49 @@ function Resume(){
           <div className="col-lg-6" data-aos="fade-up-right" data-aos-duration="1500">
             
 
-            <h3 className="resume-title">Education</h3>
+            <h3 className="resume-title">EDUCATION</h3>
             <div className="resume-item">
               <h3>B.Tech in Computer Science &amp; Engineering</h3>
               <h5>2019 - Present</h5>
               <p style={{fontSize:'20px'}}><i>PES University, Bangalore, India</i></p>
               <ul>
-                <li>CGPA – 8.03/10.00</li>
+                <li>CGPA – 8.03 / 10.00</li>
                 <li>Received Distinction Award</li>
               </ul>
             </div>
 
-            <h3 className="resume-title"> Experience</h3>
+            <h3 className="resume-title">EXPERIENCE</h3>
+
             <div className="resume-item">
+              <h3>Research Intern</h3>
+              <h4>Center for Cloud Computing and Big Data (CCBD), <br></br>PES University</h4>
+              <h5>June 2021 - Present</h5>
+              <p><em>Bangalore, India </em></p>
+              <ul>
+                <li><a href='http://research.pes.edu/cloud-computing-big-data/' target="_blank" rel="noreferrer">research.pes.edu/ccbd</a></li>
+                <li>Researching and developing optimised algorithms for Synthetic Polygon Generation with varieties of data distributions and spatial attributes.</li>
+                <li>Generating polygon datasets - exhibiting spatial properties of Real-world LULC cases.</li>
+              </ul>
+            </div>
+
+            <div className="resume-item">
+              <h3>Web Developer</h3>
+              <h4>PESU IO</h4>
+              <h5>Mar 2021 – Present</h5>
+              <p><em>Bangalore, India</em></p>
+              <ul>
+                <li>PESU I/O is India's first and only peer to peer collaborative platform by PES University. <a href='https://pesu.io/home' target="_blank" rel="noreferrer">pesu.io/home</a></li>
+                <li>Developing and maintaining applications of PESU IO.</li>
+                <li>Working on redesign of the website using NuxtJS, TailwindCSS. Building APIs and maintaining backend using NodeJS and ExpressJS.</li>
+              </ul>
+              
+            </div>
+          </div>
+
+
+          <div className="col-lg-6" data-aos="fade-up-left" data-aos-delay="100" data-aos-duration="2000">
+           
+          <div className="resume-item">
               <h3>Research Intern</h3>
               <h4>Parallel Systems Research Lab (PSRL), PES University</h4>
               <h5>June 2020 - Aug 2020</h5>
@@ -74,22 +105,19 @@ function Resume(){
                 <li>Wrote research papers, reports, reviews and summaries.</li>
               </ul>
             </div>
-          </div>
 
+            <h3 className="resume-title"> POSITIONS OF RESPONSIBILITY</h3>
 
-          <div className="col-lg-6" data-aos="fade-up-left" data-aos-delay="100" data-aos-duration="2000">
-           
             <div className="resume-item">
               <h3>Core Team Member</h3>
               <h4>Aeolus – IARC, PES University</h4>
               <h5>Oct 2019 – Present</h5>
               <p><em>Bangalore, India</em></p>
               <ul>
-                <li>IARC division of Team Aeolus is focused on participating in the AUVSI-IARC.</li>
+                <li><a href='https://aeolus.pes.edu' target="_blank" rel="noreferrer">aeolus.pes.edu</a></li>
+                <li>IARC domain of Team Aeolus is aimed to participate in the AUVSI- IARC held annually.</li>
                 <li>Working under the obstacle avoidance and computer vision domain.</li> 
-                <li>Researching various algorithms to provide best result.</li>
-                <li>Using combinations of LIDAR and 3D and Stereo cameras for simultaneous localization and mapping.</li>
-                <li>Developing new insights for object detection on drones.</li>
+                <li>Researching various Machine Learning algorithms and developing new insights for object detection on drones using combinations of stereo cameras and LIDAR for simultaneous localization and mapping.</li>
               </ul>
             </div>
 
@@ -105,16 +133,6 @@ function Resume(){
               </ul>
             </div>
 
-            <div className="resume-item">
-              <h3>Web Development Intern</h3>
-              <h4>PESU IO</h4>
-              <h5>Mar 2021 – Present</h5>
-              <p><em>Bangalore, India</em></p>
-              <ul>
-                <li>Developing and maintaining products (websites) of PESU IO.</li>
-              </ul>
-              
-            </div>
           </div>
         </div>
 
