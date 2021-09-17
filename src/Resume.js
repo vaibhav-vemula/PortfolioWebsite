@@ -58,7 +58,7 @@ function Resume(){
               <h5>2019 - Present</h5>
               <p style={{fontSize:'20px'}}><i>PES University, Bangalore, India</i></p>
               <ul>
-                <li>CGPA – 8.03 / 10.00</li>
+                <li>CGPA – 8.13 / 10.00</li>
                 <li>Received Distinction Award</li>
               </ul>
             </div>
@@ -84,7 +84,8 @@ function Resume(){
               <p><em>Bangalore, India</em></p>
               <ul>
                 <li>PESU I/O is India's first and only peer to peer collaborative platform by PES University. <a href='https://pesu.io/home' target="_blank" rel="noreferrer">pesu.io/home</a></li>
-                <li>Developing and maintaining applications of PESU IO.</li>
+                <li>Assisted in developing and maintaining applications of PESU IO.</li>
+                <li>Collaborated with team members using version control systems such as Git to organize modifications and assign tasks.</li>
                 <li>Working on redesign of the website using NuxtJS, TailwindCSS. Building APIs and maintaining backend using NodeJS and ExpressJS.</li>
               </ul>
               
@@ -128,8 +129,8 @@ function Resume(){
               <h5>Mar 2020 – Present</h5>
               <p><em>Bangalore, India</em></p>
               <ul>
-                <li>Equinox Projects division of Equinox-The Space Club is focused on participating in Indian Rover Challenge and University Rover Challenge.</li>
-                <li>Working under Navigation and Autonomy domain for autonomous navigation of the rover.</li>
+                <li>Equinox Projects domain of Equinox is focused to participate in the International Rover Challenge(IRC) and University Rover Challenge(URC).</li>
+                <li>Working under the Navigation and Autonomy domain and developed a Semi-Guided autonomous navigation system for MARS rover.</li>
               </ul>
             </div>
 
