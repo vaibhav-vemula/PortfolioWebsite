@@ -1,474 +1,461 @@
-*{
+* {
   padding: 0;
   margin: 0;
 }
-
-
-
 
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
 .header {
-    position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    width: 300px;
-    transition: all ease-in-out 0.5s;
-    z-index: 9997;
-    transition: all 0.5s;
-    padding: 0 15px;
-    background: #040b14;
-    overflow-y: auto;
-    padding-top: 40px;
-  }
-  
-  .header .profile img {
-    margin: 15px auto;
-    display: block;
-    width: 120px;
-    border: 8px solid #555555;
-  }
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 300px;
+  transition: all ease-in-out 0.5s;
+  z-index: 9997;
+  transition: all 0.5s;
+  padding: 0 15px;
+  background: #040b14;
+  overflow-y: auto;
+  padding-top: 40px;
+}
 
-  @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
-  .header .profile h1 {
-    font-size: 34px;
-    margin: 0;
-    padding: 0;
-    font-weight: 600;
-    -moz-text-align-last: center;
-    text-align-last: center;
-    font-family: 'Great Vibes', cursive;
+.header .profile img {
+  margin: 15px auto;
+  display: block;
+  width: 120px;
+  border: 8px solid #555555;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+.header .profile h1 {
+  font-size: 34px;
+  margin: 0;
+  padding: 0;
+  font-weight: 600;
+  -moz-text-align-last: center;
+  text-align-last: center;
+  font-family: "Great Vibes", cursive;
+}
+
+.header .profile h1 a,
+.header .profile h1 a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+.profile {
+  padding-bottom: 30px;
+}
+.header .profile .social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background: #212431;
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+}
+
+.header .profile .social-links a:hover {
+  background: #149ddd;
+  color: #fff;
+  text-decoration: none;
+}
+
+.main {
+  margin-right: 300px;
+}
+
+@media (max-width: 1199px) {
+  .header {
+    right: -300px;
   }
-  
-  .header .profile h1 a, .header .profile h1 a:hover {
-    color: #fff;
-    text-decoration: none;
-  }
-  .profile{
-    padding-bottom: 30px;
-  }
-  .header .profile .social-links a {
-    font-size: 18px;
-    display: inline-block;
-    background: #212431;
-    color: #fff;
-    line-height: 1;
-    padding: 8px 0;
-    margin-right: 4px;
-    border-radius: 50%;
-    text-align: center;
-    width: 36px;
-    height: 36px;
-    transition: 0.3s;
-  }
-  
-  .header .profile .social-links a:hover {
-    background: #149ddd;
-    color: #fff;
-    text-decoration: none;
-  }
-  
   .main {
-    margin-right: 300px;
+    margin-right: 0;
   }
-  
-  @media (max-width: 1199px) {
-    .header {
-      right: -300px;
-    }
-    .main {
-      margin-right: 0;
-    }
-  }
-  .example{
-    position:absolute !important;
-    top: 0;
-    }
+}
+.example {
+  position: absolute !important;
+  top: 0;
+}
 
-@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
-.po{
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap");
+.po {
   color: white;
-  font-family: 'Architects Daughter', cursive;
+  font-family: "Architects Daughter", cursive;
   font-size: 40px;
   -moz-text-align-last: center;
-    text-align-last: center;
+  text-align-last: center;
 }
-  
-  /*--------------------------------------------------------------
+
+/*--------------------------------------------------------------
   # Navigation Menu
   --------------------------------------------------------------*/
-  /* Desktop Navigation */
-  .nav-menu {
-    padding: 30px 0 0 0;
-  }
-  
-  .nav-menu * {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    align-items: center;
-  }
-  
-  .nav-menu > ul > li {
-    position: relative;
-    white-space: nowrap;
-  }
+/* Desktop Navigation */
+.nav-menu {
+  padding: 30px 0 0 0;
+}
 
- 
-  
-  .nav-menu a {
-    display: flex;
-    text-align: center;
-    color: #a8a9b4;
-    padding: 22px 5px;
-    margin-bottom: 8px;
-    transition: 0.3s;
-    font-size: 20px;
-    cursor: pointer;
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bold;
-    letter-spacing: 2px;
-  }
-  
-  .nav-menu a i {
-    font-size: 34px;
-    padding-right: 8px;
-    color: #6f7180;
-  }
-  
-  .nav-menu a:hover, .nav-menu .active, .nav-menu li:hover > a {
-    text-decoration: none;
-    color: #fff;
-  }
-  
-  .nav-menu a:hover i, .nav-menu .active i, .nav-menu li:hover > a i {
-    color: #149ddd;
-  }
-  
-  /* Mobile Navigation */
-  .mobile-nav-toggle {
-    position: fixed;
-    right: 15px;
-    top: 15px;
-    z-index: 9998;
-    border: 0;
-    font-size: 24px;
-    transition: all 0.4s;
-    outline: none !important;
-    background-color: #149ddd;
-    color: #fff;
-    width: 40px;
-    height: 40px;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    line-height: 0;
-    border-radius: 50px;
-    cursor: pointer;
-  }
-  
-  .mobile-nav-active {
-    overflow: hidden;
-  }
-  
-  .mobile-nav-active #header {
-    left: 0;
-  }
+.nav-menu * {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  align-items: center;
+}
 
- /*--------------------------------------------------------------
+.nav-menu > ul > li {
+  position: relative;
+  white-space: nowrap;
+}
+
+.nav-menu a {
+  display: flex;
+  text-align: center;
+  color: #a8a9b4;
+  padding: 22px 5px;
+  margin-bottom: 8px;
+  transition: 0.3s;
+  font-size: 20px;
+  cursor: pointer;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.nav-menu a i {
+  font-size: 34px;
+  padding-right: 8px;
+  color: #6f7180;
+}
+
+.nav-menu a:hover,
+.nav-menu .active,
+.nav-menu li:hover > a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav-menu a:hover i,
+.nav-menu .active i,
+.nav-menu li:hover > a i {
+  color: #149ddd;
+}
+
+/* Mobile Navigation */
+.mobile-nav-toggle {
+  position: fixed;
+  right: 15px;
+  top: 15px;
+  z-index: 9998;
+  border: 0;
+  font-size: 24px;
+  transition: all 0.4s;
+  outline: none !important;
+  background-color: #149ddd;
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 0;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.mobile-nav-active {
+  overflow: hidden;
+}
+
+.mobile-nav-active #header {
+  left: 0;
+}
+
+/*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
 section {
-    padding: 60px 0;
-    overflow: hidden;
-  }
-  
-  .section-bg {
-    background: #f5f8fd;
-  }
-  
-  .section-title {
-    padding-bottom: 30px;
-    
-  }
-  
-  .section-title h2 {
-    font-size: 42px;
-    font-weight: bold;
-    margin-bottom: 20px;
-    padding-bottom: 20px;
-    position: relative;
-    color: #173b6c;
-  }
-  
-  .section-title h2::after {
-    content: '';
-    position: absolute;
-    display: block;
-    width: 100%;
-    height: 3px;
-    background: #149ddd;
-    bottom: 0;
-    left: 0;
-  }
-  
-  .section-title p {
-    margin-bottom: 0;
-  }
-  
-  /*--------------------------------------------------------------
-  # About
-  --------------------------------------------------------------*/
-  @import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
-    .foo{
-    font-size: 20px;
-    font-family: 'Merienda', cursive;  
-    
-  }
-
-  
-  .content{
-      width: 500px;
-  }
-  .about .content h3 {
-    font-weight: 700;
-    font-size: 26px;
-    color: #173b6c;
-  }
-  
-  .about .content ul {
-    list-style: none;
-    padding: 0;
-  }
-  
-  .about .content ul li {
-    margin-bottom: 20px;
-    display: flex;
-    align-items: center;
-  }
-  
-  .about .content ul strong {
-    margin-right: 10px;
-  }
-  
-  .about .content ul i {
-    font-size: 16px;
-    margin-right: 5px;
-    color: #149ddd;
-    line-height: 0;
-  }
-  
-  .about .content p:last-child {
-    margin-bottom: 0;
-  }
-
-  .iii{
-      height: 400px;
-      margin-left: 30px;
-      border-radius: 55px;
-  }
-
-
-.sss{
-    margin-top: 20px;
-    text-align: center;
+  padding: 60px 0;
+  overflow: hidden;
 }
 
-  .sss a {
-    font-size: 22px;
-    display: inline-block;
-    background: #212431;
-    color: #fff;
-    line-height: 1;
-    padding: 8px 0;
-    margin-right: 30px;
-    border-radius: 50%;
-    
-    width: 46px;
-    height: 36px;
-    transition: 0.3s;
-  }
-  
-  .sss a:hover {
-    background: #149ddd;
-    color: #fff;
-    text-decoration: none;
-  }
+.section-bg {
+  background: #f5f8fd;
+}
 
+.section-title {
+  padding-bottom: 30px;
+}
 
-  /*--------------------------------------------------------------
+.section-title h2 {
+  font-size: 42px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  color: #173b6c;
+}
+
+.section-title h2::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 3px;
+  background: #149ddd;
+  bottom: 0;
+  left: 0;
+}
+
+.section-title p {
+  margin-bottom: 0;
+}
+
+/*--------------------------------------------------------------
+  # About
+  --------------------------------------------------------------*/
+@import url("https://fonts.googleapis.com/css2?family=Merienda&display=swap");
+.foo {
+  font-size: 20px;
+  font-family: "Merienda", cursive;
+}
+
+.content {
+  width: 500px;
+}
+.about .content h3 {
+  font-weight: 700;
+  font-size: 26px;
+  color: #173b6c;
+}
+
+.about .content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.about .content ul li {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.about .content ul strong {
+  margin-right: 10px;
+}
+
+.about .content ul i {
+  font-size: 16px;
+  margin-right: 5px;
+  color: #149ddd;
+  line-height: 0;
+}
+
+.about .content p:last-child {
+  margin-bottom: 0;
+}
+
+.iii {
+  height: 400px;
+  margin-left: 30px;
+  border-radius: 55px;
+}
+
+.sss {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.sss a {
+  font-size: 22px;
+  display: inline-block;
+  background: #212431;
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 30px;
+  border-radius: 50%;
+
+  width: 46px;
+  height: 36px;
+  transition: 0.3s;
+}
+
+.sss a:hover {
+  background: #149ddd;
+  color: #fff;
+  text-decoration: none;
+}
+
+/*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
-
 
 /*--------------------------------------------------------------
 # Akills
 --------------------------------------------------------------*/
 
-.ski{
+.ski {
   font-size: 16px;
-    background: #e4edf9;
-    padding: 5px 15px;
-    display: inline-block;
-    font-weight: 600;
-    margin-bottom: 20px;
-    margin-right: 20px;
+  background: #e4edf9;
+  padding: 5px 15px;
+  display: inline-block;
+  font-weight: 600;
+  margin-bottom: 20px;
+  margin-right: 20px;
 }
 
-
 .resume .resume-title {
-    font-size: 30px;
-    font-weight: 700;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 
-    color: #050d18;
-  }
-  
-  .resume .resume-item {
-    padding: 0 0 20px 20px;
-    margin-top: -2px;
-    border-left: 2px solid #1f5297;
-    position: relative;
-  }
-  
-  .resume .resume-item h4 {
-    line-height: 18px;
-    font-size: 18px;
-    font-weight: 400;
-    text-transform: uppercase;
-    font-family: "Poppins", sans-serif;
-    color: #050d18;
-    margin-bottom: 10px;
-  }
-  
-  .resume .resume-item h5 {
-    font-size: 16px;
-    background: #e4edf9;
-    padding: 5px 15px;
-    display: inline-block;
-    font-weight: 600;
-    margin-bottom: 10px;
-  }
-  
-  .resume .resume-item ul {
-    padding-left: 20px;
-  }
-  
-  .resume .resume-item ul li {
-    padding-bottom: 10px;
-  }
-  
-  .resume .resume-item:last-child {
-    padding-bottom: 0;
-  }
-  
-  .resume .resume-item::before {
-    content: "";
-    position: absolute;
-    width: 16px;
-    height: 16px;
-    border-radius: 50px;
-    left: -9px;
-    top: 0;
-    background: #fff;
-    border: 2px solid #1f5297;
-  }
+  color: #050d18;
+}
 
+.resume .resume-item {
+  padding: 0 0 20px 20px;
+  margin-top: -2px;
+  border-left: 2px solid #1f5297;
+  position: relative;
+}
 
-  /* General button style (reset) */
+.resume .resume-item h4 {
+  line-height: 18px;
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  color: #050d18;
+  margin-bottom: 10px;
+}
+
+.resume .resume-item h5 {
+  font-size: 16px;
+  background: #e4edf9;
+  padding: 5px 15px;
+  display: inline-block;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.resume .resume-item ul {
+  padding-left: 20px;
+}
+
+.resume .resume-item ul li {
+  padding-bottom: 10px;
+}
+
+.resume .resume-item:last-child {
+  padding-bottom: 0;
+}
+
+.resume .resume-item::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+  left: -9px;
+  top: 0;
+  background: #fff;
+  border: 2px solid #1f5297;
+}
+
+/* General button style (reset) */
 .btnn {
-	border: none;
-	font-family: inherit;
-	font-size: inherit;
-	color: inherit;
-	background: none;
-	cursor: pointer;
-	padding: 20px;
-	display: inline-block;
-	margin: 0px;
-	text-transform: uppercase;
-	letter-spacing: 1px;
-	font-weight: 700;
-	outline: none;
-	position: relative;
-	-webkit-transition: all 0.3s;
-	-moz-transition: all 0.3s;
-	transition: all 0.3s;
+  border: none;
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  background: none;
+  cursor: pointer;
+  padding: 20px;
+  display: inline-block;
+  margin: 0px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 700;
+  outline: none;
+  position: relative;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
   text-decoration: none;
 }
 
-
 .btnn:after {
-	content: '';
-	position: absolute;
-	z-index: -1;
-	-webkit-transition: all 0.3s;
-	-moz-transition: all 0.3s;
-	transition: all 0.3s;
+  content: "";
+  position: absolute;
+  z-index: -1;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 /* Pseudo elements for icons */
-.btnn:before
-{
-	font-family: 'icomoon';
-	
-	font-style: normal;
-	font-weight: normal;
-	font-variant: normal;
-	text-transform: none;
-	line-height: 1;
-	position: relative;
-	-webkit-font-smoothing: antialiased;
+.btnn:before {
+  font-family: "icomoon";
+
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  position: relative;
+  -webkit-font-smoothing: antialiased;
 }
 
 /* Button 2 */
 .btn-2 {
-	background: #000000;;
-	color: #fff;
-	box-shadow: 0 10px #444444;
-	-webkit-transition: none;
-	-moz-transition: none;
-	transition: none;
+  background: #000000;
+  color: #fff;
+  box-shadow: 0 10px #444444;
+  -webkit-transition: none;
+  -moz-transition: none;
+  transition: none;
 }
 
 /* Button 2h */
 .btn-2h {
-	border-radius: 20px;
+  border-radius: 20px;
 }
 
 .btn-2h:hover {
-	box-shadow: 0 4px #444444;
-    color: #ffffff;
-	top: 4px;
-    text-decoration: none;
+  box-shadow: 0 4px #444444;
+  color: #ffffff;
+  top: 4px;
+  text-decoration: none;
 }
 
 .btn-2h:active {
-	box-shadow: 0 0 #444444;
-	top: 6px;
+  box-shadow: 0 0 #444444;
+  top: 6px;
 }
 
-.bbb{
-  position:relative;
+.bbb {
+  position: relative;
   text-align: center;
-  top:55px;
+  top: 55px;
 }
 
-@media(max-width: 990px){
-  .btnn{
+@media (max-width: 990px) {
+  .btnn {
     padding: 15px;
   }
-  .bbb{
+  .bbb {
     top: -30px;
   }
-
-
 }
-
 
 /*--------------------------------------------------------------
 # Portfolio
@@ -500,7 +487,8 @@ section {
   transition: all 0.3s ease-in-out;
 }
 
-.portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
+.portfolio #portfolio-flters li:hover,
+.portfolio #portfolio-flters li.filter-active {
   color: #149ddd;
 }
 
@@ -553,7 +541,6 @@ section {
   background: rgba(20, 157, 221, 0.95);
 }
 
-
 .grid__item {
   background-color: none;
   border: none;
@@ -566,7 +553,7 @@ section {
 }
 .grid__item:hover {
   transform: translateY(-0.5%);
-  box-shadow: 0 4rem 8rem rgba(0, 0, 0, .2);
+  box-shadow: 0 4rem 8rem rgba(0, 0, 0, 0.2);
 }
 .card__img {
   display: block;
@@ -591,7 +578,7 @@ section {
   margin-bottom: 0px;
 }
 
-.prof{
+.prof {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -616,52 +603,51 @@ section {
   margin-left: 1rem;
   transition: 0.2s;
 }
-.card__btn:hover, .card__btn:active {
+.card__btn:hover,
+.card__btn:active {
   background-color: #dce4ff;
 }
-.card__btn:hover span, .card__btn:active span {
+.card__btn:hover span,
+.card__btn:active span {
   margin-left: 1.5rem;
 }
-.navl{
+.navl {
   text-decoration: none;
 }
 
 .grid {
   display: grid;
   grid-row-gap: 35px;
-  grid-column-gap: 20px ;
-  grid-template-columns: repeat(4,  1fr);
+  grid-column-gap: 20px;
+  grid-template-columns: repeat(4, 1fr);
   align-items: start;
 }
 
 @media (max-width: 1400px) {
   .grid {
     width: auto;
-    grid-template-columns: repeat(3,  1fr);
- }
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
 @media (max-width: 900px) {
   .grid {
-    grid-template-columns: repeat(2,  1fr);
+    grid-template-columns: repeat(2, 1fr);
     width: auto;
-
- }
+  }
 }
 @media (max-width: 700px) {
   .grid {
-    grid-template-columns: repeat(1,  1fr);
+    grid-template-columns: repeat(1, 1fr);
     width: auto;
- }
+  }
 }
 @media (max-width: 375px) {
   .grid {
-    grid-template-columns: repeat(1,  1fr);
+    grid-template-columns: repeat(1, 1fr);
     width: auto;
- }
-
+  }
 }
-
 
 /*--------------------------------------------------------------
 # Contact
@@ -671,7 +657,6 @@ section {
   padding: 30px;
   background: none;
   width: 100%;
-  
 }
 
 .contact .info i {
@@ -687,7 +672,6 @@ section {
   border-radius: 50px;
   transition: all 0.3s ease-in-out;
 }
-
 
 .contact .info h4 {
   padding: 0 0 0 60px;
@@ -732,7 +716,9 @@ section {
   color: #fff;
 }
 
-.contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
+.contact .info .email:hover i,
+.contact .info .address:hover i,
+.contact .info .phone:hover i {
   background: #030303;
   color: #fff;
 }
@@ -808,7 +794,8 @@ section {
   padding-bottom: 8px;
 }
 
-.contact .formm input, .contact .formm textarea {
+.contact .formm input,
+.contact .formm textarea {
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
@@ -853,7 +840,10 @@ section {
   }
 }
 
-
+.iic {
+  height: 20px;
+  size: 20px;
+}
 .sss2 a {
   font-size: 22px;
   display: inline-block;
@@ -863,7 +853,7 @@ section {
   padding: 8px 0;
   margin-right: 30px;
   border-radius: 50%;
-  
+
   width: 46px;
   height: 36px;
   transition: 0.3s;
@@ -875,30 +865,26 @@ section {
   text-decoration: none;
 }
 
-.namee{
-  font-family: 'Architects Daughter', cursive;
+.namee {
+  font-family: "Architects Daughter", cursive;
 
   font-size: 25px;
   font-weight: bold;
 }
 
-.form-control{
+.form-control {
   border-radius: 20px;
-
 }
 
-
-.tem{
-  
+.tem {
   text-align: center;
- 
 }
 
-.tem img{
+.tem img {
   height: 250px;
 }
 
-.inl{
+.inl {
   display: flex;
 }
 
@@ -911,8 +897,6 @@ section {
   background: url("./img/wall.jpeg") top center;
   background-size: cover;
 }
-
-
 
 #hero:before {
   content: "";
@@ -930,13 +914,9 @@ section {
   z-index: 10;
   width: 600px;
   left: 150px;
-  text-shadow: 0px 0px 0 rgb(0,-62,0),
-                 1px 1px  0 rgb(-255,-317,0),
-                 2px 2px 1px rgba(0,0,0,0.81),
-                 2px 2px 1px rgba(0,0,0,0.5),
-                 0px 0px 1px rgba(0,0,0,.2);
-  
-  
+  text-shadow: 0px 0px 0 rgb(0, -62, 0), 1px 1px 0 rgb(-255, -317, 0),
+    2px 2px 1px rgba(0, 0, 0, 0.81), 2px 2px 1px rgba(0, 0, 0, 0.5),
+    0px 0px 1px rgba(0, 0, 0, 0.2);
 }
 
 #hero h1 {
@@ -975,28 +955,26 @@ section {
     font-size: 35px;
     line-height: 36px;
   }
- 
-  #hero h2{
+
+  #hero h2 {
     font-size: 24px;
   }
-  #hero .hero-container{
+  #hero .hero-container {
     left: 50px;
   }
-
 }
 
-@media(max-width: 450px){
-  #hero .hero-container{
+@media (max-width: 450px) {
+  #hero .hero-container {
     left: 10px;
   }
-  .iii{
+  .iii {
     margin-left: 20px;
   }
 }
 
-@media(max-width: 1400px){
- 
-  .iii{
+@media (max-width: 1400px) {
+  .iii {
     margin-left: 0px;
   }
 }

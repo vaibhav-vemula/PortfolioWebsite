@@ -1,43 +1,36 @@
-import React from 'react';
+import React from "react";
 // import { Switch, Route, Redirect } from "react-router-dom";
-import './App.css';
-import Navbar from './Navbar'
+import "./App.css";
+import Navbar from "./Navbar";
 
-import "./assets/bootstrap/css/bootstrap.min.css" 
-import "./assets/bootstrap-icons/bootstrap-icons.css" 
-import "./assets/boxicons/css/boxicons.min.css" 
+import "./assets/bootstrap/css/bootstrap.min.css";
+import "./assets/bootstrap-icons/bootstrap-icons.css";
+import "./assets/boxicons/css/boxicons.min.css";
 
-
-import AOS from 'aos';
+import AOS from "aos";
 import "aos/dist/aos.css";
 
-import About from './About';
-import Resume from './Resume';
-import Projects from './Projects';
-import Contact from './Contact';
-import Home from './Home';
+import About from "./About";
+import Resume from "./Resume";
+import Projects from "./Projects";
+import Contact from "./Contact";
+import Home from "./Home";
 AOS.init();
 
-
-
 function App() {
-  
-  return ( 
-      <>
+  return (
+    <>
       <Navbar />
-      
+
       <main className="main">
-      
-      <Home />
+        <Home />
         <About />
         <Resume />
         <Projects />
         <Contact />
-     </main>
-            </>
-        );
-    }
-
-
+      </main>
+    </>
+  );
+}
 
 export default App;
