@@ -36,14 +36,11 @@ function About() {
             <div className="row">
               <div className="col-lg-6">
                 <ul>
-                  <li>
-                    <i className="bi bi-chevron-right"></i>{" "}
-                    <strong>Birthday:</strong> <span>25 July 2001</span>
-                  </li>
+                  
                   <li>
                     <i className="bi bi-chevron-right"></i>{" "}
                     <strong>Website:</strong>{" "}
-                    <span>www.vaibhavvemula.netlify.app</span>
+                    <span>www.vaibhavvemula.me</span>
                   </li>
                   <li>
                     <i className="bi bi-chevron-right"></i>{" "}
@@ -60,7 +57,7 @@ function About() {
                 <ul>
                   <li>
                     <i className="bi bi-chevron-right"></i>{" "}
-                    <strong>Age:</strong> <span>19</span>
+                    <strong>Age:</strong> <span>20</span>
                   </li>
                   <li>
                     <i className="bi bi-chevron-right"></i>{" "}
