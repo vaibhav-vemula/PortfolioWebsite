@@ -36,11 +36,9 @@ function About() {
             <div className="row">
               <div className="col-lg-6">
                 <ul>
-                  
                   <li>
                     <i className="bi bi-chevron-right"></i>{" "}
-                    <strong>Website:</strong>{" "}
-                    <span>www.vaibhavvemula.me</span>
+                    <strong>Website:</strong> <span>www.vaibhavvemula.me</span>
                   </li>
                   <li>
                     <i className="bi bi-chevron-right"></i>{" "}

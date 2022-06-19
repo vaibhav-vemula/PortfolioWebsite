@@ -329,7 +329,7 @@ section {
 }
 
 .resume .resume-item h4 {
-  line-height: 18px;
+  line-height: 28px;
   font-size: 18px;
   font-weight: 400;
   text-transform: uppercase;
@@ -454,6 +454,23 @@ section {
   }
   .bbb {
     top: -30px;
+  }
+}
+
+.temppp {
+  padding-top: 75px;
+}
+.hhhh {
+  border: none;
+  border-top: 2px dashed rgb(32, 32, 32);
+  color: #fff;
+  background-color: #fff;
+  height: 2px;
+}
+
+@media (max-width: 820px) {
+  .temppp {
+    padding-top: 0px;
   }
 }
 

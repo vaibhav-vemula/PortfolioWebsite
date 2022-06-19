@@ -31,12 +31,13 @@ function Resume() {
               <h2>Technical Skills </h2>
               <br />
               <div className="col-lg-12">
-                <h5 className="ski">C++</h5>
-                <h5 className="ski">C</h5>
                 <h5 className="ski">Python</h5>
                 <h5 className="ski">JavaScript</h5>
+                <h5 className="ski">C/C++</h5>
                 <h5 className="ski">ReactJS</h5>
+                <h5 className="ski">NextJS</h5>
                 <h5 className="ski">VueJS</h5>
+                <h5 className="ski">NuxtJS</h5>
                 <h5 className="ski">NodeJS</h5>
                 <h5 className="ski">ExpressJS</h5>
                 <h5 className="ski">MongoDB</h5>
@@ -47,13 +48,12 @@ function Resume() {
                 <h5 className="ski">Machine Learning</h5>
                 <h5 className="ski">Tensorflow</h5>
                 <h5 className="ski">Git</h5>
-                <h5 className="ski">Android / iOS App Development</h5>
-                
+                <h5 className="ski">Android</h5>
+                <h5 className="ski">Blockchain</h5>
               </div>
             </div>
           </div>
 
-          <br />
           <div className="row">
             <div
               className="col-lg-6"
@@ -68,15 +68,29 @@ function Resume() {
                   <i>PES University, Bangalore, India</i>
                 </p>
                 <ul>
-                  <li>Received Distinction Award</li>
+                  <li>
+                    Specialization in Machine Intelligence and Data
+                    Science(MIDS)
+                  </li>
                 </ul>
               </div>
+            </div>
+          </div>
 
+          <hr data-aos="fade-up" data-aos-duration="1500" className="hhhh" />
+
+          <div className="row">
+            <div
+              className="col-lg-6"
+              data-aos="fade-up-right"
+              data-aos-duration="1500"
+            >
               <h3 className="resume-title">EXPERIENCE</h3>
 
               <div className="resume-item">
-                <h3>Product Developer</h3>
-                <h4>PESU Venture Labs</h4>
+                <h3>PESU Venture Labs</h3>
+                <h4>Product Developer</h4>
+
                 <h5>Oct 2021 – Present</h5>
                 <p>
                   <em>Bangalore, India</em>
@@ -93,24 +107,87 @@ function Resume() {
                       pesuventurelabs.com
                     </a>
                   </li>
+                  <h5 style={{ "textDecoration": "underline" }}>
+                    Seminar Room -
+                  </h5>
+                  <li>Worked on a product for a company named Seminar Room.</li>
                   <li>
-                    Collaborated with team members using version control systems
-                    such as Git to organize modifications and assign tasks.
+                    Developed an application for hosting industrial
+                    seminars/sessions and successfully integrated video
+                    streaming service and payment gateway.
                   </li>
                   <li>
-                    Working on building a product for a startup called Seminar
-                    Room.
+                    Implemented enhancements that improved application
+                    functionality and responsiveness.
+                  </li>
+                  <li>
+                    Responsible for implementing new features and maintaining
+                    seminar room application.
                   </li>
                   <li>
                     Technologies used - ReactJS, NextJS, TailwindCSS, NodeJS,
                     AWS and MySQL.
                   </li>
+                  <h5 style={{ "textDecoration": "underline" }}>
+                    Senior Central -
+                  </h5>
+                  <li>
+                    Working on a product for a Start Up named Senior Central.
+                  </li>
+                  <li>
+                    Developing a multipurpose backend framework. Designed and
+                    implemented SQL database using PostgreSQL.
+                  </li>
+                  <li>Designed and architected features from the ground up.</li>
+                  <li>
+                    Managing backend development, creating server and APIs.
+                  </li>
+                  <li>Technologies used - NodeJS, ExpressJS, PostgreSQL</li>
+                  <li>
+                    Collaborated with front end team to ensure the backend
+                    server and database were accessed easily and precisely.
+                  </li>
                 </ul>
               </div>
+            </div>
 
+            <div
+              className="col-lg-6 temppp"
+              data-aos="fade-up-left"
+              data-aos-delay="100"
+              data-aos-duration="2000"
+            >
               <div className="resume-item">
-                <h3>Web Developer Executive</h3>
-                <h4>PESU IO</h4>
+                <h3>Centre for Robotics, Automation and Intelligent Systems</h3>
+                <h4>Research Intern</h4>
+
+                <h5>June 2021 - Sep 2021</h5>
+                <p>
+                  <em>PES University</em>
+                </p>
+                <ul>
+                  <li>
+                    Working on a project titled Expression generation for human
+                    robot interaction.
+                  </li>
+                  <li>
+                    This project aims to build a 3D printed social humanoid
+                    robot face capable of generating various human like facial
+                    expressions and voice outputs based on the situations in
+                    which it’s situated.
+                  </li>
+                  <li>
+                    Researching on various Artificial intelligence, Deep
+                    learning algorithms and other cloud based APIs to
+                    efficiently learn, recognize, and react to different
+                    situations.
+                  </li>
+                </ul>
+              </div>
+              <div className="resume-item">
+                <h3>PESU IO</h3>
+                <h4>Executive</h4>
+
                 <h5>Mar 2021 – Present</h5>
                 <p>
                   <em>Bangalore, India</em>
@@ -133,118 +210,103 @@ function Resume() {
                     such as Git to organize modifications and assign tasks.
                   </li>
                   <li>
-                    Working on redesign of the website using NuxtJS,
+                    Successfully integrated payment gateway and working with
+                    internal and external APIs.Implemented enhancements that
+                    improved application functionality and responsiveness.
+                  </li>
+                  <li>
+                    Working on redesign/revamp of the website using NuxtJS,
                     TailwindCSS. Building APIs and maintaining backend using
                     NodeJS and ExpressJS.
                   </li>
                 </ul>
               </div>
+            </div>
+          </div>
+
+          <hr data-aos="fade-up" data-aos-duration="1500" className="hhhh" />
+          <br />
+          <div className="row">
+            <div
+              className="col-lg-6"
+              data-aos="fade-up-right"
+              data-aos-duration="1500"
+            >
+              <h3 className="resume-title">POSITIONS OF RESPONSIBILITY</h3>
 
               <div className="resume-item">
-                <h3>Research Intern</h3>
-                <h4>
-                  Centre for Robotics, Automation and Intelligent Systems, PES
-                  University
-                </h4>
-                <h5>Sep 2021 – Present</h5>
+                <h3>IEEE Computer Society, PES University</h3>
+                <h4>Student Vice Chair</h4>
+                <h5>Nov 2021 – Present</h5>
                 <p>
                   <em>Bangalore, India</em>
                 </p>
                 <ul>
                   <li>
-                    Working on a project titled Expression generation for human
-                    robot interaction.
+                    <a
+                      href="https://ieeecspesu.tech"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      ieeecspesu.tech
+                    </a>
                   </li>
                   <li>
-                    This project aims to build a 3D printed social humanoid
-                    robot face capable of generating various human like facial
-                    expressions and voice outputs based on the situations in
-                    which it’s situated.
+                    Founding member of IEEE Computer Society Student Branch
+                    Chapter in PES University.
                   </li>
                   <li>
-                    Researching on various Artificial intelligence, Deep
-                    learning algorithms and other cloud based APIs to
-                    efficiently learn, recognize, and react to different
-                    situations.
+                    Organizing workshops, technical events, and
+                    interdisciplinary initiatives to promote and leverage the
+                    Computer Science culture on campus.
+                  </li>
+                  <li>
+                    Building community of students from all circuit branches in
+                    the university to share ideas and upscale their technical
+                    skills.
+                  </li>
+                  <li>
+                    Actively participating in IEEE Computer Society webinars and
+                    events.
+                  </li>
+                </ul>
+              </div>
+
+              <div className="resume-item">
+                <h3>Team Aeolus – IARC</h3>
+                <h4>Core team member</h4>
+                <h5>Sep 2019 – Present</h5>
+                <p>
+                  <em>Bangalore, India</em>
+                </p>
+                <ul>
+                  <li>
+                    IARC domain of Team Aeolus is focused to participate in the
+                    Mission 9 of International Aerial Robotics Competition(IARC)
+                    held annually in Atlanta, USA.{" "}
+                    <a
+                      href="http://www.aerialroboticscompetition.org/"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      aerialroboticscompetition.org
+                    </a>
+                  </li>
+                  <li>
+                    Working under the obstacle avoidance and computer vision
+                    domain and developed an obstacle avoidance system for
+                    drones.
                   </li>
                 </ul>
               </div>
             </div>
 
             <div
-              className="col-lg-6"
+              className="col-lg-6 temppp"
               data-aos="fade-up-left"
               data-aos-delay="100"
               data-aos-duration="2000"
             >
-              <div className="resume-item">
-                <h3>Research Intern</h3>
-                <h4>
-                  Center for Cloud Computing and Big Data (CCBD), <br></br>PES
-                  University
-                </h4>
-                <h5>June 2021 - Sep 2021</h5>
-                <p>
-                  <em>Bangalore, India </em>
-                </p>
-                <ul>
-                  <li>
-                    <a
-                      href="http://research.pes.edu/cloud-computing-big-data/"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      research.pes.edu/ccbd
-                    </a>
-                  </li>
-                  <li>
-                    Researched and developed optimised algorithms for Synthetic
-                    Polygon Generation with varieties of data distributions and
-                    spatial attributes.
-                  </li>
-                  <li>
-                    Generated polygon datasets - exhibiting spatial properties
-                    of Real-world Land Use/Land Cover(LULC) cases.
-                  </li>
-                </ul>
-              </div>
-
-              <h3 className="resume-title"> POSITIONS OF RESPONSIBILITY</h3>
-
-              <div className="resume-item">
-                <h3>Aeolus – IARC, PES University</h3>
-                <h4>Core Team Member</h4>
-                <h5>Oct 2019 – Present</h5>
-                <p>
-                  <em>Bangalore, India</em>
-                </p>
-                <ul>
-                  <li>
-                    <a
-                      href="https://aeolus.pes.edu"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      aeolus.pes.edu
-                    </a>
-                  </li>
-                  <li>
-                    IARC domain of Team Aeolus is aimed to participate in the
-                    AUVSI- IARC held annually.
-                  </li>
-                  <li>
-                    Working under the obstacle avoidance and computer vision
-                    domain.
-                  </li>
-                  <li>
-                    Researching various Machine Learning algorithms and
-                    developing new insights for object detection on drones using
-                    combinations of stereo cameras and LIDAR for simultaneous
-                    localization and mapping.
-                  </li>
-                </ul>
-              </div>
-
               <div className="resume-item">
                 <h3>Equinox - The Space Club of PES University</h3>
                 <h4>Team lead for Navigation and Autonomy domain</h4>
@@ -254,14 +316,13 @@ function Resume() {
                 </p>
                 <ul>
                   <li>
-                    Equinox Projects domain of Equinox is focused to participate
+                    Equinox Projects domain of Equinox is focused on competing
                     in the International Rover Challenge(IRC) and University
                     Rover Challenge(URC).
                   </li>
                   <li>
-                    Working under the Navigation and Autonomy domain and
-                    developed a Semi-Guided autonomous navigation system for
-                    MARS rover.
+                    Developed a Semi-Guided autonomous navigation system for
+                    MARS rover prototype.
                   </li>
                 </ul>
               </div>

@@ -75,4 +75,22 @@ const Carddata = [
   },
 ];
 
+const Carddata2 = [
+  {
+    imgsrc: rdc,
+    title: "MarvinEye - Autonomous Navigation Framework",
+    subtitle:
+      "A MERN stack application for people living in rural areas and the governing agencies of villages.",
+    link: "https://github.com/vaibhav-vemula/Rural-Digital-Companion",
+  },
+  {
+    imgsrc: app,
+    title: "LearnElla",
+    subtitle:
+      "Android app with offline English Dictionary, Quiz (with different question categories), and eBook Library.",
+    link: "https://github.com/vaibhav-vemula/LearnElla",
+  },
+];
+
 export default Carddata;
+export { Carddata2 };
