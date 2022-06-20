@@ -589,7 +589,7 @@ section {
 }
 .card__text {
   font-size: 15px;
-  letter-spacing: 0.1rem;
+  letter-spacing: 0.05rem;
   line-height: 1.7;
   color: #3d3d3d;
   margin-bottom: 0px;
@@ -745,7 +745,7 @@ section {
   padding: 30px;
   background: #fff;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
-  border-radius: 35px;
+  border-radius: 25px;
 }
 
 .contact .formm .form-group {
@@ -881,11 +881,13 @@ section {
   color: rgb(158, 72, 72);
   text-decoration: none;
 }
-
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
 .namee {
-  font-family: "Architects Daughter", cursive;
+  /* font-family: "Architects Daughter", cursive; */
+  font-family: 'PT Serif', serif;
+  font-size: 21px;
+  color: #374151; 
 
-  font-size: 25px;
   font-weight: bold;
 }
 
@@ -994,4 +996,111 @@ section {
   .iii {
     margin-left: 0px;
   }
+}
+
+
+.proj{
+  display: flex; 
+justify-content: center; 
+align-items: center; 
+height: 100vh; 
+}
+
+.proj2{
+  overflow: hidden; 
+max-width: 25rem; 
+border-radius: 0.25rem; 
+box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05); 
+}
+
+.proj3{
+  width: 100%; 
+}
+
+.proj4{
+  padding-top: 1rem;
+padding-left: 1.5rem;
+padding-right: 1.5rem; 
+}
+.proj44{
+  padding-top: 1rem;
+padding-bottom: 1rem; 
+padding-left: 1.5rem;
+padding-right: 1.5rem; 
+}
+
+.proj5{
+  margin-bottom: 0.5rem; 
+font-size: 1.25rem;
+line-height: 1.75rem; 
+font-weight: 700; 
+}
+
+.proj6{
+  color: #374151; 
+font-size: 1rem;
+line-height: 1.5rem; 
+
+margin-bottom:7px !important;
+}
+
+.proj7{
+  display: inline-block; 
+padding-top: 0.25rem;
+padding-bottom: 0.25rem; 
+padding-left: 0.75rem;
+padding-right: 0.75rem; 
+margin-right: 0.5rem; 
+background-color: #E5E7EB; 
+color: #374151; 
+font-size: 0.875rem;
+line-height: 1.25rem; 
+font-weight: 600; 
+border-radius: 9999px; 
+margin-bottom:5px;
+}
+
+
+
+.grid2 {
+  display: grid;
+  grid-row-gap: 35px;
+  grid-column-gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: start;
+}
+
+@media (max-width: 1400px) {
+  .grid2 {
+    width: auto;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 900px) {
+  .grid2 {
+    grid-template-columns: repeat(1, 1fr);
+    width: auto;
+  }
+}
+@media (max-width: 700px) {
+  .grid2 {
+    grid-template-columns: repeat(1, 1fr);
+    width: auto;
+  }
+}
+@media (max-width: 375px) {
+  .grid2 {
+    grid-template-columns: repeat(1, 1fr);
+    width: auto;
+  }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+.heeeeee{
+  font-style: uppercase;
+  text-align: center;
+  color: #173b6c;
+  font-family: 'Fjalla One', sans-serif;
+  padding-bottom: 25px;
 }

@@ -8,6 +8,12 @@ import app from "./img/appp.png";
 import covi from "./img/covinews.png";
 import tg from "./img/tg.png";
 
+import aeolus from "./img/aeolus.png";
+import hum from "./img/humanoid.png";
+import marvin from "./img/marvineye.png";
+import poly from "./img/poly.png";
+import sm from "./img/smartcity.png";
+
 const Carddata = [
   {
     imgsrc: rdc,
@@ -77,18 +83,50 @@ const Carddata = [
 
 const Carddata2 = [
   {
-    imgsrc: rdc,
-    title: "MarvinEye - Autonomous Navigation Framework",
-    subtitle:
-      "A MERN stack application for people living in rural areas and the governing agencies of villages.",
-    link: "https://github.com/vaibhav-vemula/Rural-Digital-Companion",
+    imgsrc: sm,
+    title: "Smart City Planning",
+    subtitle: [
+      "An application that produces a plan for the region of interest specified",
+      'A system that will take an area (location/coordinate) as an input and generate the required data analysis report for it.',  "The solution will provide smart data analysis which will be in accordance with creating a smart and sustainable city."
+    ],
+    tags: ["GIS", "Remote Sensing", "AI/ML/DL", "OpenCV", "python"],
   },
   {
-    imgsrc: app,
-    title: "LearnElla",
-    subtitle:
-      "Android app with offline English Dictionary, Quiz (with different question categories), and eBook Library.",
-    link: "https://github.com/vaibhav-vemula/LearnElla",
+    imgsrc: hum,
+    title: "Social Humanoid Robo Face with Emotions",
+    subtitle: [
+      "A 3D printed social humanoid robot face capable of generating various human like facial expressions and voice outputs based on the situations in which it’s situated.",
+      "Researching on various Artificial intelligence, Deep learning algorithms and other cloud based APIs to efficiently learn, recognize, and react to different situations.",
+    ],
+    tags: ["AI/ML/DL", "WatsonAPI", "OpenCV"],
+  },
+  {
+    imgsrc: marvin,
+    title: "MarvinEye - Autonomous Navigation Framework",
+    subtitle: [
+      "This research project was carried out at Parallel Systems Research Lab(PSRL), PES University",
+      "Designed and executed Autonomous Navigation System in Constrained Environment using DSMAC(Digital Scene Mapping and Area Correlation), Triangle Similarity and various Computer Vision and Machine Learning algorithms for guidance and navigation.",
+    ],
+    tags: ["AI/ML/DL", "OpenCV", "Python"],
+  },
+  {
+    imgsrc: aeolus,
+    title: "Autonomous UAV",
+    subtitle: [
+      "R&D of various ML algorithms & developing new insights for object detection on drones using combinations of stereo cameras and LIDAR for simultaneous localization and mapping.",
+
+      "Implementing feature based matching algorithms to detect communication module using descriptors like SIFT, SURF and ORB.",
+    ],
+    tags: ["AI/ML/DL", "OpenCV", "Python"],
+  },
+  {
+    imgsrc: poly,
+    title: "Synthetic Polygon Generation",
+    subtitle: [
+      "Researched and developed optimised algorithms for Synthetic Polygon Generation with varieties of data distributions and spatial attributes.",
+      "Generated polygon datasets - exhibiting spatial properties of Real-world Land Use/Land Cover(LULC) cases.",
+    ],
+    tags: ["GIS", "Python", "C++"],
   },
 ];
 

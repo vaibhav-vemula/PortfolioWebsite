@@ -1,6 +1,7 @@
 import React from "react";
 // import { Switch, Route, Redirect } from "react-router-dom";
 import "./App.css";
+import "./index.css"
 import Navbar from "./Navbar";
 
 import "./assets/bootstrap/css/bootstrap.min.css";

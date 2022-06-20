@@ -44,7 +44,7 @@ function Contact() {
               <form className="formm" onSubmit={sendEmail}>
                 <div className="row">
                   <div className="form-group col-md-6">
-                    <label className="namee">Your Name</label>
+                    <label className="namee">Name</label>
                     <input
                       type="text"
                       name="name"
@@ -54,7 +54,7 @@ function Contact() {
                     />
                   </div>
                   <div className="form-group col-md-6">
-                    <label className="namee">Your Email</label>
+                    <label className="namee">Email</label>
                     <input
                       type="email"
                       className="form-control"
