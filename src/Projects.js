@@ -21,7 +21,7 @@ function Projects() {
           <br />
           <hr className="hhhh" />
           <br />
-          <h2 data-aos="fade-up" className="heeeeee">--------&nbsp;Personal Projects&nbsp;--------</h2>
+          <h2 data-aos="fade-up" className="heeeeee">--------&nbsp;Few Personal Projects&nbsp;--------</h2>
           <div className="grid">
             {ProjectsData.map((data, key) => {
               return <Proj key={key} data={data} />;
