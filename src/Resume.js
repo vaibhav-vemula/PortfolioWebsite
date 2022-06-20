@@ -18,6 +18,8 @@ function Resume() {
             >
               <div className="bbb">
                 <a
+                target="_blank"
+                rel="noopener noreferrer"
                   href="https://drive.google.com/drive/folders/1UjnYTGz0BNKj08DPXdTCuM7hrPBgtBhH?usp=sharing"
                   className="btnn btn-2 btn-2h"
                 >
@@ -102,7 +104,7 @@ function Resume() {
                     <a
                       href="https://pesuventurelabs.com/#/"
                       target="_blank"
-                      rel="noreferrer"
+                rel="noopener noreferrer"
                     >
                       pesuventurelabs.com
                     </a>

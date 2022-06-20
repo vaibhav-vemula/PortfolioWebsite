@@ -603,9 +603,9 @@ section {
 
 .card__btn {
   display: block;
-  width: 90%;
+  width: 100%;
   text-decoration: none;
-  padding: 15px;
+  padding: 10px;
   font-size: 15px;
   text-align: center;
   color: #3363ff;
@@ -615,6 +615,7 @@ section {
   transition: 0.2s;
   cursor: pointer;
   margin-top: 10px;
+  text-align: center;
 }
 .card__btn span {
   margin-left: 1rem;
@@ -636,7 +637,7 @@ section {
   display: grid;
   grid-row-gap: 35px;
   grid-column-gap: 20px;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   align-items: start;
 }
 

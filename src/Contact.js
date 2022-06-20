@@ -120,24 +120,32 @@ function Contact() {
                 <br />
                 <div className="sss2 ">
                   <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="https://www.instagram.com/vaibhaaaavvv/"
                     className="instagram"
                   >
                     <i className="bx bxl-instagram"></i>
                   </a>
                   <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="https://linkedin.com/in/vaibhavvemula/"
                     className="linkedin"
                   >
                     <i className="bx bxl-linkedin"></i>
                   </a>
                   <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="https://github.com/vaibhav-vemula"
                     className="linkedin"
                   >
                     <i className="bx bxl-github"></i>
                   </a>
                   <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="https://twitter.com/vaibhaaaavvv"
                     className="twitter"
                   >

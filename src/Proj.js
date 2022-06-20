@@ -3,7 +3,12 @@ import React from "react";
 function Proj(props) {
   return (
     <>
-      <a href={props.data.link} style={{ textDecoration: "none" }}>
+      <a
+        target="_blank"
+        rel="noopener noreferrer"
+        href={props.data.link}
+        style={{ textDecoration: "none" }}
+      >
         <div
           className="grid__item"
           data-aos="flip-left"
