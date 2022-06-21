@@ -163,7 +163,7 @@ function Resume() {
                 <h3>Centre for Robotics, Automation and Intelligent Systems</h3>
                 <h4>Research Intern</h4>
 
-                <h5>June 2021 - Sep 2021</h5>
+                <h5>Aug 2021 - Present</h5>
                 <p>
                   <em>PES University</em>
                 </p>

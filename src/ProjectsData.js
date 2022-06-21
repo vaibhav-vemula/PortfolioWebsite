@@ -94,7 +94,7 @@ const Carddata2 = [
       "An application that produces a plan for the region of interest specified",
       'A system that will take an area (location/coordinate) as an input and generate the required data analysis report for it.',  "The solution will provide smart data analysis which will be in accordance with creating a smart and sustainable city."
     ],
-    tags: ["GIS", "Remote Sensing", "AI/ML/DL", "OpenCV", "python"],
+    tags: ["GIS", "Remote Sensing", "AI/ML/DL", "OpenCV", "Python"],
   },
   {
     imgsrc: hum,
