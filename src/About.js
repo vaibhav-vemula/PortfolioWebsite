@@ -73,24 +73,35 @@ function About() {
               </div>
               <div className="sss ">
                 <a
+                  target="_blank"
+                  rel="noopener noreferrer"
                   href="https://www.instagram.com/vaibhaaaavvv/"
                   className="instagram"
                 >
                   <i className="bx bxl-instagram"></i>
                 </a>
                 <a
+                  target="_blank"
+                  rel="noopener noreferrer"
                   href="https://linkedin.com/in/vaibhavvemula/"
                   className="linkedin"
                 >
                   <i className="bx bxl-linkedin"></i>
                 </a>
                 <a
+                  target="_blank"
+                  rel="noopener noreferrer"
                   href="https://github.com/vaibhav-vemula"
                   className="linkedin"
                 >
                   <i className="bx bxl-github"></i>
                 </a>
-                <a href="https://twitter.com/vaibhaaaavvv" className="twitter">
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://twitter.com/vaibhaaaavvv"
+                  className="twitter"
+                >
                   <i className="bx bxl-twitter"></i>
                 </a>
               </div>

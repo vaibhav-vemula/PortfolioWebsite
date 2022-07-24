@@ -44,7 +44,7 @@ function Contact() {
               <form className="formm" onSubmit={sendEmail}>
                 <div className="row">
                   <div className="form-group col-md-6">
-                    <label className="namee">Your Name</label>
+                    <label className="namee">Name</label>
                     <input
                       type="text"
                       name="name"
@@ -54,7 +54,7 @@ function Contact() {
                     />
                   </div>
                   <div className="form-group col-md-6">
-                    <label className="namee">Your Email</label>
+                    <label className="namee">Email</label>
                     <input
                       type="email"
                       className="form-control"
@@ -120,24 +120,32 @@ function Contact() {
                 <br />
                 <div className="sss2 ">
                   <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="https://www.instagram.com/vaibhaaaavvv/"
                     className="instagram"
                   >
                     <i className="bx bxl-instagram"></i>
                   </a>
                   <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="https://linkedin.com/in/vaibhavvemula/"
                     className="linkedin"
                   >
                     <i className="bx bxl-linkedin"></i>
                   </a>
                   <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="https://github.com/vaibhav-vemula"
                     className="linkedin"
                   >
                     <i className="bx bxl-github"></i>
                   </a>
                   <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="https://twitter.com/vaibhaaaavvv"
                     className="twitter"
                   >
