@@ -1,5 +1,6 @@
 import React from "react";
-import pp from "./img/pp.jpg";
+// import pp from "./img/pp.jpg";
+import vv from "./img/vaibhav.png"
 
 function About() {
   return (
@@ -22,7 +23,7 @@ function About() {
             data-aos-delay="100"
             data-aos-duration="1000"
           >
-            <img src={pp} className="iii" alt="sdcs" />
+            <img src={vv} className="iii " alt="sdcs" height={10}/>
           </div>
           <div
             className="col-lg-8 pt-4 pt-lg-0 content"
