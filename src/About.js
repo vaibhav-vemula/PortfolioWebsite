@@ -56,7 +56,7 @@ function About() {
                 <ul>
                   <li>
                     <i className="bi bi-chevron-right"></i>{" "}
-                    <strong>Age:</strong> <span>20</span>
+                    <strong>Age:</strong> <span>21</span>
                   </li>
                   <li>
                     <i className="bi bi-chevron-right"></i>{" "}
