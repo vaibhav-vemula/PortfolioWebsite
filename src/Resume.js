@@ -18,8 +18,8 @@ function Resume() {
             >
               <div className="bbb">
                 <a
-                target="_blank"
-                rel="noopener noreferrer"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   href="https://drive.google.com/drive/folders/1UjnYTGz0BNKj08DPXdTCuM7hrPBgtBhH?usp=sharing"
                   className="btnn btn-2 btn-2h"
                 >
@@ -52,6 +52,7 @@ function Resume() {
                 <h5 className="ski">Git</h5>
                 <h5 className="ski">Android</h5>
                 <h5 className="ski">Blockchain</h5>
+                <h5 className="ski">Azure</h5>
               </div>
             </div>
           </div>
@@ -63,9 +64,21 @@ function Resume() {
               data-aos-duration="1500"
             >
               <h3 className="resume-title">EDUCATION</h3>
+
+              <div className="resume-item">
+                <h3>Master of Science in Computer Science</h3>
+                <h5>Aug 2023 - Present</h5>
+                <p style={{ fontSize: "20px" }}>
+                  <i>The George Washington University, Washington D.C.</i>
+                </p>
+                <ul>
+                  <li>Specialization in Machine Intelligence and Cognition</li>
+                </ul>
+              </div>
+
               <div className="resume-item">
                 <h3>B.Tech in Computer Science &amp; Engineering</h3>
-                <h5>2019 - Present</h5>
+                <h5>Aug 2019 - May 2023</h5>
                 <p style={{ fontSize: "20px" }}>
                   <i>PES University, Bangalore, India</i>
                 </p>
@@ -90,65 +103,86 @@ function Resume() {
               <h3 className="resume-title">EXPERIENCE</h3>
 
               <div className="resume-item">
-                <h3>PESU Venture Labs</h3>
-                <h4>Product Developer</h4>
+                <h3>Bosch Global Software Technologies (BGSW)</h3>
+                <h4>Research and Development Intern</h4>
 
-                <h5>Oct 2021 – Present</h5>
+                <h5>Jan 2023 - May 2023</h5>
                 <p>
                   <em>Bangalore, India</em>
                 </p>
                 <ul>
                   <li>
-                    PVL is a venture studio launched under the partnership of
-                    PESU and COCreate Ventures.{" "}
-                    <a
-                      href="https://pesuventurelabs.com/#/"
-                      target="_blank"
-                rel="noopener noreferrer"
-                    >
-                      pesuventurelabs.com
-                    </a>
-                  </li>
-                  <h5 style={{ "textDecoration": "underline" }}>
-                    Seminar Room -
-                  </h5>
-                  <li>Worked on a product for a company named Seminar Room.</li>
-                  <li>
-                    Developed an application for hosting industrial
-                    seminars/sessions and successfully integrated video
-                    streaming service and payment gateway.
+                    Developed and implemented end-to-end MLOps pipelines for
+                    deploying deep learning models on Azure Machine Learning
+                    platform, ensuring seamless integration and efficient
+                    management of model lifecycle.
                   </li>
                   <li>
-                    Implemented enhancements that improved application
-                    functionality and responsiveness.
+                    Leveraged Azure Machine Learning pipelines and workflows to
+                    orchestrate and automate the model training, evaluation, and
+                    deployment process, ensuring reproducibility and version
+                    control.
                   </li>
                   <li>
-                    Responsible for implementing new features and maintaining
-                    seminar room application.
+                    Developed containerized model deployment solutions using
+                    Azure Container Instances (ACI), packaging deep learning
+                    models and dependencies for scalable and efficient
+                    deployment.
                   </li>
                   <li>
-                    Technologies used - ReactJS, NextJS, TailwindCSS, NodeJS,
-                    AWS and MySQL.
-                  </li>
-                  <h5 style={{ "textDecoration": "underline" }}>
-                    Senior Central -
-                  </h5>
-                  <li>
-                    Working on a product for a Start Up named Senior Central.
+                    Ensured seamless integration between the MLOps pipeline and
+                    the React frontend, enabling smooth user interactions with
+                    the deployed deep learning models.
                   </li>
                   <li>
-                    Developing a multipurpose backend framework. Designed and
-                    implemented SQL database using PostgreSQL.
+                    Technologies used - Azure Machine Learning, Azure DevOps,
+                    PyTorch, OpenCV, MLFlow, DVC, ReactJS
                   </li>
-                  <li>Designed and architected features from the ground up.</li>
+                </ul>
+              </div>
+
+              <div className="resume-item">
+                <h3>PES University</h3>
+                <h4>Undergraduate Research Intern</h4>
+
+                <h5>Jan 2022 - Feb 2023</h5>
+                <p>
+                  <em>Bangalore, India</em>
+                </p>
+                <ul>
                   <li>
-                    Managing backend development, creating server and APIs.
+                    Worked on a project titled{" "}
+                    <u>
+                      {" "}
+                      Localised Land-Use Classification using UNet and Satellite
+                      Imaging
+                    </u>
+                    .
                   </li>
-                  <li>Technologies used - NodeJS, ExpressJS, PostgreSQL</li>
                   <li>
-                    Collaborated with front end team to ensure the backend
-                    server and database were accessed easily and precisely.
+                    Built an application that produces a localised urban city
+                    growth analysis for the city using GIS and machine learning.
                   </li>
+                  <li>
+                    Collected temporal and spatial data from Sentinel-2 and
+                    Landsat satellites for computing Land Use/Land Cover(LULC)
+                    using UNET segmentation model and QGIS. Worked on change
+                    detection in a given city location.
+                  </li>
+                  <li>
+                    The solution will provide smart data analysis which will be
+                    in accordance with creating a smart and sustainable city.
+                  </li>
+                  <li>
+                    Authored a research paper that was presented and published
+                    in the{" "}
+                    <u>
+                      2nd International Conference on Intelligent Systems and
+                      Applications (ICISA 2023)
+                    </u>
+                    .
+                  </li>
+                  <li>Technologies used - OpenCV, Python, QGIS, Tensorflow</li>
                 </ul>
               </div>
             </div>
@@ -160,66 +194,69 @@ function Resume() {
               data-aos-duration="2000"
             >
               <div className="resume-item">
-                <h3>Centre for Robotics, Automation and Intelligent Systems</h3>
-                <h4>Research Intern</h4>
+                <h3>Bosch Global Software Technologies (BGSW)</h3>
+                <h4>Research and Development Intern</h4>
 
-                <h5>Aug 2021 - Present</h5>
-                <p>
-                  <em>PES University</em>
-                </p>
-                <ul>
-                  <li>
-                    Working on a project titled Expression generation for human
-                    robot interaction.
-                  </li>
-                  <li>
-                    This project aims to build a 3D printed social humanoid
-                    robot face capable of generating various human like facial
-                    expressions and voice outputs based on the situations in
-                    which it’s situated.
-                  </li>
-                  <li>
-                    Researching on various Artificial intelligence, Deep
-                    learning algorithms and other cloud based APIs to
-                    efficiently learn, recognize, and react to different
-                    situations.
-                  </li>
-                </ul>
-              </div>
-              <div className="resume-item">
-                <h3>PESU IO</h3>
-                <h4>Executive</h4>
-
-                <h5>Mar 2021 – Present</h5>
+                <h5>June 2022 - July 2022</h5>
                 <p>
                   <em>Bangalore, India</em>
                 </p>
                 <ul>
                   <li>
-                    PESU I/O is India's first and only peer to peer
-                    collaborative platform by PES University.{" "}
+                    Worked with various deep learning models, architectures and
+                    strategies for pedestrian detection and segmentation in the
+                    Autonomous Driving (AD) domain.
+                  </li>
+                  <li>
+                    Researched and implemented various ensemble learning
+                    techniques for object detection and segmentation.
+                  </li>
+                  <li>
+                    Constructed MLOps pipeline and developed a visualisation
+                    dashboard using MLflow to better analyse metrics.
+                  </li>
+                  <li>
+                    Technologies used - PyTorch, Tensorflow, OpenCV, MLOps,
+                    MLFlow, DVC, Python
+                  </li>
+                </ul>
+              </div>
+              <div className="resume-item">
+                <h3>PESU Venture Labs</h3>
+                <h4>Product Developer</h4>
+
+                <h5>Oct 2021 – June 2022</h5>
+                <p>
+                  <em>Bangalore, India</em>
+                </p>
+                <ul>
+                  <li>
+                    Collaborated with clients to create applications that are
+                    released for public use.
+                  </li>
+                  <li>
+                    Developed applications from the ground up for two startups,{" "}
                     <a
-                      href="https://pesu.io/home"
+                      href="https://seminarroom.in"
                       target="_blank"
                       rel="noreferrer"
                     >
-                      pesu.io/home
+                      <u>
+                        <b>seminarroom.in</b>
+                      </u>
                     </a>
-                  </li>
-                  <li>Developing and maintaining applications of PESU IO.</li>
-                  <li>
-                    Collaborated with team members using version control systems
-                    such as Git to organize modifications and assign tasks.
-                  </li>
-                  <li>
-                    Successfully integrated payment gateway and working with
-                    internal and external APIs.Implemented enhancements that
-                    improved application functionality and responsiveness.
+                    , and{" "}
+                    <u>
+                      <b>Senior Central</b>
+                    </u>
                   </li>
                   <li>
-                    Working on redesign/revamp of the website using NuxtJS,
-                    TailwindCSS. Building APIs and maintaining backend using
-                    NodeJS and ExpressJS.
+                    Successfully integrated video streaming service and payment
+                    gateway and scaled the architecture for 7000+ users.
+                  </li>
+                  <li>
+                    Developed a multipurpose backend architecture. Designed and
+                    implemented SQL database using PostgreSQL.
                   </li>
                 </ul>
               </div>
@@ -239,7 +276,7 @@ function Resume() {
               <div className="resume-item">
                 <h3>IEEE Computer Society, PES University</h3>
                 <h4>Student Vice Chair</h4>
-                <h5>Nov 2021 – Present</h5>
+                <h5>Nov 2021 – Nov 2022</h5>
                 <p>
                   <em>Bangalore, India</em>
                 </p>
@@ -258,73 +295,30 @@ function Resume() {
                     Chapter in PES University.
                   </li>
                   <li>
-                    Organizing workshops, technical events, and
-                    interdisciplinary initiatives to promote and leverage the
-                    Computer Science culture on campus.
+                    Leading a team of 30 motivated people and successfully
+                    conducted 6 technical events, workshops and
+                    multidisciplinary initiatives that helped 500+ students in
+                    learning new skills.
+                  </li>
+                  <li>Mentored 5 teams to complete their research project.</li>
+                  <li>
+                    Played a pivotal role in organising a 24Hr Bangalore Level
+                    Hackathon,{" "}
+                    <a
+                      href="https://siliconrush.ieeecspesu.tech"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Silicon Rush
+                    </a>
                   </li>
                   <li>
-                    Building community of students from all circuit branches in
-                    the university to share ideas and upscale their technical
-                    skills.
+                    Built a search engine with open source tools to keep track
+                    of the web searches performed throughout the hackathon.
                   </li>
                   <li>
                     Actively participating in IEEE Computer Society webinars and
                     events.
-                  </li>
-                </ul>
-              </div>
-
-              <div className="resume-item">
-                <h3>Team Aeolus – IARC</h3>
-                <h4>Core team member</h4>
-                <h5>Sep 2019 – Present</h5>
-                <p>
-                  <em>Bangalore, India</em>
-                </p>
-                <ul>
-                  <li>
-                    IARC domain of Team Aeolus is focused to participate in the
-                    Mission 9 of International Aerial Robotics Competition(IARC)
-                    held annually in Atlanta, USA.{" "}
-                    <a
-                      href="http://www.aerialroboticscompetition.org/"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      aerialroboticscompetition.org
-                    </a>
-                  </li>
-                  <li>
-                    Working under the obstacle avoidance and computer vision
-                    domain and developed an obstacle avoidance system for
-                    drones.
-                  </li>
-                </ul>
-              </div>
-            </div>
-
-            <div
-              className="col-lg-6 temppp"
-              data-aos="fade-up-left"
-              data-aos-delay="100"
-              data-aos-duration="2000"
-            >
-              <div className="resume-item">
-                <h3>Equinox - The Space Club of PES University</h3>
-                <h4>Team lead for Navigation and Autonomy domain</h4>
-                <h5>Mar 2020 – Present</h5>
-                <p>
-                  <em>Bangalore, India</em>
-                </p>
-                <ul>
-                  <li>
-                    Equinox Projects domain of Equinox is focused on competing
-                    in the International Rover Challenge(IRC) and University
-                    Rover Challenge(URC).
-                  </li>
-                  <li>
-                    Developed a Semi-Guided autonomous navigation system for
-                    MARS rover prototype.
                   </li>
                 </ul>
               </div>
@@ -370,8 +364,84 @@ function Resume() {
                     </a>
                   </li>
                   <li>
-                    Responsible for implementing new features and maintaining
-                    Why Waste? app.
+                    Developed a mobile app with 2000+ downloads across iOS and
+                    Android that allows users to measure their water footprint,
+                    complete challenges, and learn more about water waste.
+                  </li>
+                  <li>
+                    Working with UNICEF India to track and evaluate student
+                    water consumption across India’s state of Maharashtra.
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div
+              className="col-lg-6 temppp"
+              data-aos="fade-up-left"
+              data-aos-delay="100"
+              data-aos-duration="2000"
+            >
+              <div className="resume-item">
+                <h3>PESU IO</h3>
+                <h4>Executive</h4>
+                <h5>Mar 2021 – Oct 2022</h5>
+                <p>
+                  <em>Bangalore, India</em>
+                </p>
+                <ul>
+                  <li>
+                    PESU I/O is India’s first and only peer to peer
+                    collaborative platform by PES University.
+                    <a
+                      href="https://pesu.io/home/"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      pesu.io/home
+                    </a>
+                  </li>
+                  <li>
+                    Collaborated with team members using version control systems
+                    such as Git to organize modifications and assign tasks.
+                  </li>
+                  <li>
+                    Successfully integrated payment gateway and working with
+                    internal and external APIs. Implemented enhancements that
+                    improved application functionality and responsiveness.
+                    scaled the infrastructure to support 5000+ concurrent users.
+                  </li>
+                  <li>
+                    Worked on revamp of the website using NuxtJS, TailwindCSS.
+                    Building APIs and maintaining backend using NodeJS and
+                    ExpressJS.
+                  </li>
+                </ul>
+              </div>
+
+              <div className="resume-item">
+                <h3>Team Aeolus – IARC</h3>
+                <h4>Core team member</h4>
+                <h5>Sep 2019 – July 2022</h5>
+                <p>
+                  <em>Bangalore, India</em>
+                </p>
+                <ul>
+                  <li>
+                    IARC domain of Team Aeolus is focused to participate in the
+                    Mission 9 of International Aerial Robotics Competition(IARC)
+                    held annually in Atlanta, USA.{" "}
+                    <a
+                      href="http://www.aerialroboticscompetition.org/"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      aerialroboticscompetition.org
+                    </a>
+                  </li>
+                  <li>
+                    Developed an obstacle avoidance system for drones to solve a
+                    challenging task given by IARC Mission 9.
                   </li>
                 </ul>
               </div>

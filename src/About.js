@@ -31,24 +31,24 @@ function About() {
             data-aos-delay="100"
             data-aos-duration="1000"
           >
-            <h3>Computer Science &amp; Engineering</h3>
-            <h4>PES University</h4>
+            <h3>Computer Science Graduate</h3>
+            <h4>The George Washington University</h4>
             <br />
             <div className="row">
               <div className="col-lg-6">
                 <ul>
                   <li>
                     <i className="bi bi-chevron-right"></i>{" "}
-                    <strong>Website:</strong> <span>www.vaibhavvemula.me</span>
+                    <strong>Website:</strong> <span>www.vaibhavvemula.com</span>
                   </li>
                   <li>
                     <i className="bi bi-chevron-right"></i>{" "}
-                    <strong>Phone:</strong> <span>+91 7619229838</span>
+                    <strong>Phone:</strong> <span>+1 (571) 567-0707</span>
                   </li>
                   <li>
                     <i className="bi bi-chevron-right"></i>{" "}
                     <strong>Location:</strong>
-                    <span>Bangalore, India</span>
+                    <span>Washington, DC</span>
                   </li>
                 </ul>
               </div>
@@ -56,18 +56,18 @@ function About() {
                 <ul>
                   <li>
                     <i className="bi bi-chevron-right"></i>{" "}
-                    <strong>Age:</strong> <span>21</span>
+                    <strong>Age:</strong> <span>22</span>
                   </li>
                   <li>
                     <i className="bi bi-chevron-right"></i>{" "}
-                    <strong>Degree:</strong> <span>B.Tech</span>
+                    <strong>Degree:</strong> <span>Master of Science</span>
                   </li>
                   <li>
                     <i className="bi bi-chevron-right"></i>{" "}
                     <strong>Email:</strong>{" "}
                     <span>
                       vaibhav25vemula23@gmail.com <br />
-                      vemulavaibhav@pesu.pes.edu
+                      vaibhav.vemula@gwu.edu
                     </span>
                   </li>
                 </ul>

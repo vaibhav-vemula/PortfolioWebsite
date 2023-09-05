@@ -16,6 +16,7 @@ import hum from "./img/humanoid.png";
 import marvin from "./img/marvineye.png";
 import poly from "./img/poly.png";
 import sm from "./img/smartcity.png";
+import zm from "./img/zem.png";
 
 const Carddata = [
 
@@ -94,7 +95,16 @@ const Carddata2 = [
       "An application that produces a plan for the region of interest specified",
       'A system that will take an area (location/coordinate) as an input and generate the required data analysis report for it.',  "The solution will provide smart data analysis which will be in accordance with creating a smart and sustainable city."
     ],
-    tags: ["GIS", "Remote Sensing", "AI/ML/DL", "OpenCV", "Python"],
+    tags: ["GIS", "Remote Sensing", "AI/ML/DL", "OpenCV", "Python"] ,
+  },
+  {
+    imgsrc: zm,
+    title: "Zemoo, an e-commerce platform built on the Blockchain ",
+    subtitle: [
+      "This project was carried out under IEEE Computer Society Bangalore Chapter",
+      'Developed a decentralised E-commerce platform based on the Polygon blockchain network.',  "Created a NFT based warranty system which auto decays after the warranty period of the product purchased. NFT warranty is used to verify the authencity of the product."
+    ],
+    tags: ["Polygon", "HardHat", "Solidity", "NextJS", "IPFS"],
   },
   {
     imgsrc: hum,
