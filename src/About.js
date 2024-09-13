@@ -43,7 +43,7 @@ function About() {
                   </li>
                   <li>
                     <i className="bi bi-chevron-right"></i>{" "}
-                    <strong>Phone:</strong> <span>+1 (571) 567-0707</span>
+                    <strong>Phone:</strong> <span>+1 (703) 505-5527</span>
                   </li>
                   <li>
                     <i className="bi bi-chevron-right"></i>{" "}
@@ -56,7 +56,7 @@ function About() {
                 <ul>
                   <li>
                     <i className="bi bi-chevron-right"></i>{" "}
-                    <strong>Age:</strong> <span>22</span>
+                    <strong>Age:</strong> <span>23</span>
                   </li>
                   <li>
                     <i className="bi bi-chevron-right"></i>{" "}
