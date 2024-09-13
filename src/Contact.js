@@ -110,12 +110,12 @@ function Contact() {
                 <div className="phone">
                   <i className="bi bi-phone"></i>
                   <h4>Call:</h4>
-                  <p>+91 7619229838</p>
+                  <p>+1 (703) 505-5527</p>
                 </div>
                 <div className="address">
                   <i className="bi bi-geo-alt"></i>
                   <h4>Location:</h4>
-                  <p>Bangalore, India</p>
+                  <p>Washington, DC</p>
                 </div>
                 <br />
                 <div className="sss2 ">
