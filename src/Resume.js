@@ -103,6 +103,42 @@ function Resume() {
               <h3 className="resume-title">EXPERIENCE</h3>
 
               <div className="resume-item">
+                <h3>The George Washington University </h3>
+                <h4>Student Research Specialist</h4>
+
+                <h5>Sep 2024 - Present</h5>
+                <p>
+                  <em>Washington, DC</em>
+                </p>
+                <ul>
+                  <li>
+                  Engaging under Dr. Kelvin Fong at LEAPH Lab, utilizing GIS and satellite remote sensing to assess environmental exposures, including air pollution, extreme temperatures, and green space in communities.
+                  </li>
+                  <li>
+                  Building an interactive application to visualize park greenness index across all 50 US states for GIS-based Data Analysis.
+                  </li>
+                </ul>
+              </div>
+
+              <div className="resume-item">
+                <h3>The George Washington University </h3>
+                <h4>Graduate Research Assistant </h4>
+
+                <h5>May 2024 - Present</h5>
+                <p>
+                  <em>Washington, DC</em>
+                </p>
+                <ul>
+                  <li>
+                  Collaborating with Dr. Jin Fang to design and develop a scalable educational platform for over 1000 children, implementing a comprehensive database, user interface, and server-side logic.
+                  </li>
+                  <li>
+                  Automating testing for React and Flask frameworks, focusing on high performance, scalability, quality assurance, secure authentication, and an intuitive user experience to improve learning outcomes.
+                  </li>
+                </ul>
+              </div>
+
+              <div className="resume-item">
                 <h3>Bosch Global Software Technologies (BGSW)</h3>
                 <h4>Research and Development Intern</h4>
 
@@ -112,10 +148,7 @@ function Resume() {
                 </p>
                 <ul>
                   <li>
-                    Developed and implemented end-to-end MLOps pipelines for
-                    deploying deep learning models on Azure Machine Learning
-                    platform, ensuring seamless integration and efficient
-                    management of model lifecycle.
+                  Developed and managed comprehensive MLOps pipelines on Azure Machine Learning, automating model training, evaluation, and deployment, resulting in a 30% reduction in deployment time for 5 robust deep learning models; presented these innovations at a company project showcase to the CEO and executives from Germany and Bangalore.
                   </li>
                   <li>
                     Leveraged Azure Machine Learning pipelines and workflows to
@@ -124,65 +157,8 @@ function Resume() {
                     control.
                   </li>
                   <li>
-                    Developed containerized model deployment solutions using
-                    Azure Container Instances (ACI), packaging deep learning
-                    models and dependencies for scalable and efficient
-                    deployment.
+                  Implemented scalable deployment solutions with Azure Container Instances and integrated MLOps pipeline architecture with a React frontend and Flask API for user-friendly interactions.
                   </li>
-                  <li>
-                    Ensured seamless integration between the MLOps pipeline and
-                    the React frontend, enabling smooth user interactions with
-                    the deployed deep learning models.
-                  </li>
-                  <li>
-                    Technologies used - Azure Machine Learning, Azure DevOps,
-                    PyTorch, OpenCV, MLFlow, DVC, ReactJS
-                  </li>
-                </ul>
-              </div>
-
-              <div className="resume-item">
-                <h3>PES University</h3>
-                <h4>Undergraduate Research Intern</h4>
-
-                <h5>Jan 2022 - Feb 2023</h5>
-                <p>
-                  <em>Bangalore, India</em>
-                </p>
-                <ul>
-                  <li>
-                    Worked on a project titled{" "}
-                    <u>
-                      {" "}
-                      Localised Land-Use Classification using UNet and Satellite
-                      Imaging
-                    </u>
-                    .
-                  </li>
-                  <li>
-                    Built an application that produces a localised urban city
-                    growth analysis for the city using GIS and machine learning.
-                  </li>
-                  <li>
-                    Collected temporal and spatial data from Sentinel-2 and
-                    Landsat satellites for computing Land Use/Land Cover(LULC)
-                    using UNET segmentation model and QGIS. Worked on change
-                    detection in a given city location.
-                  </li>
-                  <li>
-                    The solution will provide smart data analysis which will be
-                    in accordance with creating a smart and sustainable city.
-                  </li>
-                  <li>
-                    Authored a research paper that was presented and published
-                    in the{" "}
-                    <u>
-                      2nd International Conference on Intelligent Systems and
-                      Applications (ICISA 2023)
-                    </u>
-                    .
-                  </li>
-                  <li>Technologies used - OpenCV, Python, QGIS, Tensorflow</li>
                 </ul>
               </div>
             </div>
