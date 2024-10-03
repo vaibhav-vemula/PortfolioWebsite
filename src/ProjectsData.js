@@ -90,10 +90,10 @@ const Carddata = [
 const Carddata2 = [
   {
     imgsrc: sm,
-    title: "Smart City Planning",
+    title: "Localised Land-Use Classification using UNet and Satellite Imaging",
     subtitle: [
-      "An application that produces a plan for the region of interest specified",
-      'A system that will take an area (location/coordinate) as an input and generate the required data analysis report for it.',  "The solution will provide smart data analysis which will be in accordance with creating a smart and sustainable city."
+      "Published at 2nd International Conference on Intelligent Systems and Applications (ICISA 2023) (Springer).",
+      "Developed an advanced application leveraging GIS and machine learning for urban growth analysis, utilizing Sentinel-2 and Landsat data for Land Use/Land Cover assessments, UNET for segmentation, and QGIS for visualization to support smart and sustainable city planning initiatives.",  "The solution will provide smart data analysis which will be in accordance with creating a smart and sustainable city."
     ],
     tags: ["GIS", "Remote Sensing", "AI/ML/DL", "OpenCV", "Python"] ,
   },

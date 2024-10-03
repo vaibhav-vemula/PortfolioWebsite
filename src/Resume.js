@@ -151,12 +151,6 @@ function Resume() {
                   Developed and managed comprehensive MLOps pipelines on Azure Machine Learning, automating model training, evaluation, and deployment, resulting in a 30% reduction in deployment time for 5 robust deep learning models; presented these innovations at a company project showcase to the CEO and executives from Germany and Bangalore.
                   </li>
                   <li>
-                    Leveraged Azure Machine Learning pipelines and workflows to
-                    orchestrate and automate the model training, evaluation, and
-                    deployment process, ensuring reproducibility and version
-                    control.
-                  </li>
-                  <li>
                   Implemented scalable deployment solutions with Azure Container Instances and integrated MLOps pipeline architecture with a React frontend and Flask API for user-friendly interactions.
                   </li>
                 </ul>
