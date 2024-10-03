@@ -103,7 +103,7 @@ function Contact() {
                   <h4>Email:</h4>
                   <p>
                     vaibhav25vemula23@gmail.com <br />
-                    vemulavaibhav@pesu.pes.edu
+                    vaibhav.vemula@gwu.edu
                   </p>
                 </div>
 
